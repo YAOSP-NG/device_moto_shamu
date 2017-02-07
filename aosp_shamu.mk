@@ -42,3 +42,6 @@ PRODUCT_NAME := aosp_shamu
 PRODUCT_PACKAGES += \
     Launcher3
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT=google/shamu/shamu:7.1.1/N6F26R/3582520:user/release-keys \
+    PRIVATE_BUILD_DESC="shamu-user 7.1.1 N6F26R 3582520 release-keys"
